@@ -1,0 +1,58 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: white;
+}
+
+.left {
+  background-color: #4169e0;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left:hover {
+  width: 190%;
+  transition: all 1s ease-in-out;
+}
+
+.left:not(hover) {
+  width: 50%;
+  transition: all 1s ease-in-out;
+}
+
+.right {
+  background-color: #fa8072;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right:hover {
+  width: 190%;
+  transition: all 1s ease-in-out;
+}
+
+.right:not(hover) {
+  width: 50%;
+  transition: all 1s ease-in-out;
+}
+
+.leftText {
+  width: 250px;
+}
+
+.rightText {
+  width: 260px;
+}

@@ -1,0 +1,44 @@
+.submenuWrapper {
+  background-color: #fa8072;
+  position: fixed;
+  margin-top: 84px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+.submenuWrapper a {
+  position: relative;
+  margin-right: 13px;
+  text-decoration: none;
+  color: white;
+}
+
+.submenuWrapper a:hover {
+  color: white;
+}
+
+.submenuWrapper a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.submenuWrapper a:hover::before {
+  transform: scaleX(1);
+}
+
+.subMenuList li {
+  display: inline;
+}

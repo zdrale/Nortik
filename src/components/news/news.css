@@ -1,0 +1,26 @@
+.storyCard {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2;
+  border-left: 3px solid rgb(192, 192, 192);
+  height: 100px;
+  width: 60%;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.storyCard a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(112, 129, 148);
+}
+
+.storyCard p {
+  font-size: 12px;
+}
+
+.blue {
+  color: rgb(130, 204, 250);
+}

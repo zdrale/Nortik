@@ -1,0 +1,10 @@
+.playgroundWrapper {
+  height: 100vh;
+  background-color: #fa8072;
+  display: flex;
+  justify-content: center;
+}
+
+.animatedDiv {
+  margin-top: 130px;
+}

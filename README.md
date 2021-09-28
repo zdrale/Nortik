@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a task that I did for Nortik company, this application consumes HackerNews API and presents data to client.
+Technologies that I used for this projects:
+HTML
+CSS
+React.js
+Axios
+
 ## Available Scripts
 
 In the project directory, you can run:

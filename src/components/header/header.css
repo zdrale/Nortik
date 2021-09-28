@@ -1,0 +1,58 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4169e0;
+  font-size: 13px;
+  padding: 16px 0;
+}
+
+.headerLeft {
+  padding: 0 260px;
+}
+
+.headerLeft img {
+  height: 50px;
+  width: 50px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  padding: 0 260px;
+}
+
+.headerRight a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.headerNav li {
+  display: inline;
+}
+
+.headerRight a:hover {
+  color: white;
+}
+
+.headerRight a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
