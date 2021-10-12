@@ -18,8 +18,8 @@ const Header = () => {
 
         <div className="headerRight">
             <ul className="headerNav">
-               <li><a href="/stories">Stories</a></li>
-               <li><a href="/playgrounds">Playground</a></li>
+               <li><Link to="/stories">Stories</Link></li>
+               <li><Link to="/playgrounds">Playground</Link></li>
             </ul>
         </div>
     </div>
