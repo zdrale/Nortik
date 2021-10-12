@@ -1,15 +1,16 @@
 import './home.css';
 import '../reset.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return <div className="wrapper">
-        <a href="/stories" className="left">
+        <Link to="/stories" className="left">
             <div className="leftText">If you are interested in reading our most fun stories, choose this side.</div>
-        </a>
+        </Link>
 
-        <a href="/playgrounds" className="right">
+        <Link to="/playgrounds" className="right">
             <div className='rightText'>If you are interested in spending some playfull time, choose this side.</div>
-        </a>
+        </Link>
     </div>
 };
 

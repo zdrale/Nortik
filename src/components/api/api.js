@@ -9,7 +9,6 @@ export const storyUrl =`${baseUrl}item/`;
 //Gets a single story
 export const getStory = async storyId => {
     const result = await axios.get(`${storyUrl + storyId}.json`).then(({data}) => data);
-
     return result;
 };
 
