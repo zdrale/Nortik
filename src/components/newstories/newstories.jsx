@@ -1,5 +1,5 @@
 import '../reset.css';
-import '../topstories/topstories.css';
+import '../newstories/newstories.css';
 import React, {useEffect, useState} from 'react';
 import { getTopStoryIds, getStory, getNewStoryIds } from '../api/api';
 import {News} from '../news/news';
@@ -15,7 +15,7 @@ const NewStories = () => {
 
     return storyIds.map(storyId => (
       <div className="storiesContainer">
-       <News key={storyId} storyId={storyId}/>
+        <News key={storyId} storyId={storyId}/>
       </div>
     ));
  
